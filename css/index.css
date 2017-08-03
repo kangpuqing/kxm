@@ -1,0 +1,366 @@
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img,
+div,
+section,
+footer,
+header {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+fieldset,
+img {
+  border: none;
+}
+img {
+  display: block;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ul,
+ol {
+  list-style: none;
+}
+input {
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: "SimSun", "宋体";
+}
+input::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+select,
+input {
+  vertical-align: middle;
+}
+select,
+input,
+textarea {
+  font-size: 12px;
+  margin: 0;
+}
+input[type="text"],
+input[type="password"],
+textarea {
+  outline-style: none;
+  -webkit-appearance: none;
+}
+textarea {
+  resize: none;
+}
+input,
+textarea {
+  background: none;
+  border: none;
+}
+table {
+  border-collapse: collapse;
+}
+body {
+  color: #333;
+  font: 12px/1.2 "微软雅黑", "SimSun", "Arial Narrow", HELVETICA;
+  background: #fff;
+}
+a {
+  text-decoration: none;
+}
+a:hover,
+a:active,
+a:focus {
+  text-decoration: underline;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fa3432;
+  height: 0.94rem;
+}
+header .logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 0.18rem;
+}
+header .logo img {
+  width: 0.46rem;
+  height: 0.46rem;
+}
+header .logo h1 {
+  font-size: 0.3rem;
+  color: #FFFFFF;
+}
+header .login {
+  display: flex;
+  align-items: center;
+  margin-right: 0.29rem;
+}
+header .login a {
+  font-size: 0.3rem;
+  color: #FFFFFF;
+}
+header .login span {
+  font-size: 0.3rem;
+  color: #FFFFFF;
+}
+.topnav {
+  height: 0.86rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.topnav .current {
+  color: #ff3636;
+}
+.topnav a {
+  font-size: 0.24rem;
+  color: #4b4a4a;
+}
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe .swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe .swipe-wrap > div {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+.swipe img {
+  /*让图片100%*/
+  width: 100%;
+}
+.swipe .indirector {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.swipe .indirector span {
+  display: inline-block;
+  margin: 3px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.swipe .indirector span.on {
+  background-color: red;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  height: 2rem;
+  padding-top: 0.34rem;
+  padding-bottom: 0.34rem;
+}
+.nav li {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.nav li img {
+  height: 0.9rem;
+  width: 0.9rem;
+}
+.nav li p {
+  font-size: 0.3rem;
+  color: #808080;
+}
+.sectiongoods .title {
+  padding-left: 0.18rem;
+  padding-right: 0.18rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 0.95rem;
+  background-color: #f9f9f9;
+}
+.sectiongoods .title div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.sectiongoods .title div img {
+  height: 0.46rem;
+  width: 0.46rem;
+}
+.sectiongoods .title div h4 {
+  font-size: 0.3rem;
+  color: #494848;
+}
+.sectiongoods .title a {
+  color: #9a9b9c;
+  font-size: 0.3rem;
+}
+.sectiongoods .goods {
+  margin-bottom: 0.25rem;
+  margin-left: 0.18rem;
+  margin-right: 0.18rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #eee;
+  background-color: #fff;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+.sectiongoods .goods .goodstitle {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+.sectiongoods .goods .goodstitle h4 {
+  font-size: 0.28rem;
+  color: #494848;
+}
+.sectiongoods .goods .goodstitle .cash {
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  width: 0.85rem;
+  height: 0.3rem;
+  background-color: #ffab37;
+  font-size: 0.24rem;
+}
+.sectiongoods .goods .goodstitle .iconfont {
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  width: 0.33rem;
+  height: 0.3rem;
+  font-size: 0.24rem;
+  background-color: #ff7404;
+}
+.sectiongoods .goods .data {
+  display: flex;
+  justify-content: space-around;
+}
+.sectiongoods .goods .data .data1 {
+  margin-top: 0.85rem;
+}
+.sectiongoods .goods .data .data1 strong {
+  font-size: 0.38rem;
+  color: #fb4030;
+  margin-left: 0.18rem;
+}
+.sectiongoods .goods .data .data1 em {
+  font-size: 0.24rem;
+  color: #ff7900;
+}
+.sectiongoods .goods .data .data2 {
+  margin-top: 0.75rem;
+}
+.sectiongoods .goods .data .data2 p {
+  font-size: 0.3rem;
+  color: #9a9b9c;
+  margin-bottom: 0.3rem;
+}
+.sectiongoods .goods .data .data2 strong {
+  color: #3d3c3c ;
+}
+.news .title {
+  padding-left: 0.18rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 0.95rem;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+}
+.news .title h4 {
+  font-size: 0.3rem;
+}
+.news .newscontent {
+  padding-left: 0.18rem;
+  padding-right: 0.18rem;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 0.23rem;
+}
+.news .newscontent .items {
+  padding-top: 0.35rem;
+  display: flex;
+  align-items: center;
+}
+.news .newscontent .items img {
+  width: 1.1rem;
+  height: 1.1rem;
+  border-radius: 25%;
+  margin-right: 0.23rem;
+  flex: 0 0 auto;
+}
+.news .newscontent .items .note {
+  flex: 1 1 auto;
+}
+.news .newscontent .items .note h4 {
+  font-size: 0.3rem;
+  margin-bottom: 0.23rem;
+  color: #494848;
+}
+.news .newscontent .items .note p {
+  display: flex;
+  justify-content: space-between;
+  color: #9A9B9C;
+  font-size: 0.28rem;
+}
+.news .newscontent .items:nth-child(3) {
+  padding-bottom: 0.23rem;
+}
+footer {
+  height: 1.65rem;
+  padding-top: 0.45rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+footer .copy1 {
+  color: #494848;
+  font-size: 0.28rem;
+  margin-bottom: 0.26rem;
+}
+footer .copy1 a {
+  color: #494848;
+  font-size: 0.28rem;
+}
+footer .copy2 {
+  color: #9A9B9C;
+  font-size: 0.26rem;
+}
