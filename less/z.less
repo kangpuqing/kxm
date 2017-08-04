@@ -19,6 +19,7 @@
   em,i{font-style: normal;}
 }
 .reset-sina(){
+  em,i{font-style: normal;}
   html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img,div,section,footer,header { margin:0; padding:0; box-sizing: border-box;}
   h1,h2,h3,h4,h5,h6{font-weight: normal;}
   fieldset, img { border:none; }
@@ -489,12 +490,18 @@
 .pb(@v){ padding-bottom : @v / @basicWidth * 1rem;}
 .pl(@v){ padding-left : @v / @basicWidth * 1rem;}
 .pr(@v){ padding-right : @v / @basicWidth * 1rem;}
+.plr(@v){ padding-right : @v / @basicWidth * 1rem;padding-left : @v / @basicWidth * 1rem;}
 .fs(@v){ font-size:@v / @basicWidth * 1rem;}
 .w(@v){ width:@v / @basicWidth * 1rem;}
 .mt(@v){ margin-top:@v / @basicWidth * 1rem;}
 .ml(@v){ margin-left:@v / @basicWidth * 1rem;}
 .mr(@v){ margin-right:@v / @basicWidth * 1rem;}
 .mb(@v){ margin-bottom:@v / @basicWidth * 1rem;}
+.l(@v){ left:@v / @basicWidth * 1rem;}
+.t(@v){ top:@v / @basicWidth * 1rem;}
+.tc(){text-align: center;}
 .bs(@v1,@v2){
     background-size: @v1/@basicWidth*1rem  @v2/@basicWidth*1rem;
 }
+.flex_b{    display: flex;justify-content: space-between;align-items: center;}
+.flex_c{    display: flex;justify-content: center;align-items: center;}

@@ -1,0 +1,346 @@
+.flex_b {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex_c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+em,
+i {
+  font-style: normal;
+}
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img,
+div,
+section,
+footer,
+header {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+fieldset,
+img {
+  border: none;
+}
+img {
+  display: block;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ul,
+ol {
+  list-style: none;
+}
+input {
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: "SimSun", "宋体";
+}
+input::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+select,
+input {
+  vertical-align: middle;
+}
+select,
+input,
+textarea {
+  font-size: 12px;
+  margin: 0;
+}
+input[type="text"],
+input[type="password"],
+textarea {
+  outline-style: none;
+  -webkit-appearance: none;
+}
+textarea {
+  resize: none;
+}
+input,
+textarea {
+  background: none;
+  border: none;
+}
+table {
+  border-collapse: collapse;
+}
+body {
+  color: #333;
+  font: 12px/1.2 "微软雅黑", "SimSun", "Arial Narrow", HELVETICA;
+  background: #fff;
+}
+a {
+  text-decoration: none;
+}
+a:hover,
+a:active,
+a:focus {
+  text-decoration: underline;
+}
+header {
+  color: #fff;
+}
+header .nav {
+  height: 0.92rem;
+  padding-left: 0.27rem;
+  padding-right: 0.27rem;
+  background-color: #FA3432;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .nav img {
+  height: 0.34rem;
+  width: 0.5rem;
+}
+header .nav h4 {
+  font-size: 0.28rem;
+}
+header .nav i {
+  font-size: 0.28rem;
+}
+.bcover {
+  position: relative;
+}
+.bcover .detail {
+  height: 2.22rem;
+  background-color: #ff3c01;
+  background: linear-gradient(to bottom, #ff3c01, #d80607);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+.bcover .detail p {
+  font-size: 0.68rem;
+  width: 100%;
+  text-align: center;
+}
+.bcover .detail em {
+  font-size: 0.3rem;
+  margin-top: 0.42rem;
+  width: 100%;
+  text-align: center;
+}
+.bcover .cover {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.bcover .cover ul {
+  background-color: #fff;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 0.4rem;
+  padding-left: 0.4rem;
+}
+.bcover .cover ul li {
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.bcover .cover ul li i {
+  width: 100%;
+  text-align: center;
+  font-size: 0.3rem;
+}
+.bcover .cover ul li p {
+  width: 100%;
+  text-align: center;
+  font-size: 0.3rem;
+}
+.bcover .cover div {
+  position: absolute;
+  top: 1.32rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #ccc;
+  opacity: .5;
+}
+.bcover .on {
+  display: block;
+}
+.bcover .allpromise .need {
+  display: flex;
+  height: 0.79rem;
+  border-bottom: 1px solid #f1f0f0;
+  align-items: center;
+}
+.bcover .allpromise .need p {
+  width: 50%;
+  font-size: 0.3rem;
+  color: #777;
+  text-align: center;
+}
+.bcover .allpromise .need p:nth-child(1) {
+  border-right: 1px solid #F1F0F0;
+}
+.bcover .allpromise .promise {
+  height: 2.8rem;
+}
+.bcover .allpromise .promise ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.bcover .allpromise .promise ul li {
+  color: #ffc166;
+  height: 1rem;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bcover .allpromise .promise ul li p {
+  font-size: 0.24rem;
+}
+.bcover .allpromise .promise ul li i {
+  width: 0.3rem;
+  height: 0.3rem;
+  font-size: 0.24rem;
+  border: 1px solid #f5f5f5;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 0.3rem;
+}
+.bcover .goods .now .roll {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.bcover .goods .now .roll p {
+  font-size: 0.24rem;
+  color: #fff;
+  height: 0.32rem;
+  width: 0.6rem;
+  background-color: #fb0502;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 0.32rem;
+}
+.bcover .goods .now .roll i {
+  margin-top: 0.3rem;
+  position: relative;
+  left: -0.25rem;
+  top: 0.38rem;
+  border-bottom: 5px solid transparent;
+  border-top: 5px solid #FA3432;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+.bcover .goods .now .roll .bgroll {
+  margin-top: 0.5rem;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  width: 7rem;
+  height: 0.12rem;
+  border-radius: 6px;
+  background-color: #DDDDDD;
+}
+.bcover .goods .now .roll .bgroll .uproll {
+  left: 0rem;
+  position: absolute;
+  width: 3rem;
+  height: 0.12rem;
+  background-color: #FB0502;
+  border-radius: 6px;
+}
+.bcover .goods .now .nowperson {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.25rem;
+  padding-right: 0.25rem;
+  padding-left: 0.25rem;
+}
+.bcover .goods .now .nowperson p {
+  font-size: 0.22rem;
+  color: #808080;
+}
+.bcover .goods .now .nowperson p em {
+  color: #FB0502;
+}
+.bcover .goods .more {
+  height: 3.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 0.2rem;
+}
+.bcover .goods .more a {
+  color: #808080;
+  font-size: 0.22rem;
+}
+footer {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #f0f0f0;
+  height: 1.05rem;
+  align-items: center;
+  padding-right: 0.25rem;
+  padding-left: 0.25rem;
+}
+footer .gusuan {
+  font-size: 0.32rem;
+  color: #f90;
+}
+footer .touzi {
+  width: 5.18rem;
+  height: 0.8rem;
+  background-color: #FA3432;
+  line-height: 0.8rem;
+  text-align: center;
+  border-radius: 15px;
+  font-size: 0.32rem;
+  color: #fff;
+  margin-left: 0.52rem;
+}

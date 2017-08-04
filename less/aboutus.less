@@ -1,0 +1,119 @@
+@import "z.less";
+.reset-sina();
+header{
+    color: #fff;
+    .nav{
+        .h(92);
+        .pl(27);
+        .pr(27);
+        background-color: #FA3432;
+        .flex_b();
+        img{
+            .h(34);
+            .w(50);
+        }
+        h4{
+            .fs(28);
+        }
+        i{
+            .fs(28);
+        }
+    } 
+}
+.bcover{
+    position: relative;
+    .content{
+        background-color: #F9F9F9;
+        .plr(30);
+        display: flex;
+        flex-wrap: wrap;
+        div{
+            .mt(30);
+            .mb(50);
+            width: 100%;
+            span{
+                .mb(20);
+                display: flex;
+                flex-wrap:nowrap;
+                 i{
+                    display: block;
+                    .lh(30);
+                    .w(30);
+                    .h(30);
+                    text-align: center;
+                    .fs(18);
+                    border-radius: 50%;
+                    color: #fff;
+                    background-color: #FA3432;
+                }     
+                h4{
+                    color: #FA3432;
+                    .fs(28);
+                }           
+            }
+
+        }
+       
+    }
+    
+    .cover{
+       display: none;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        ul{
+            background-color: #fff;
+            .pt(30);
+            .pb(30);
+            .flex_b();
+            .plr(40);
+            li{
+                color: red;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                i{
+                    width: 100%;
+                    text-align: center;
+                    .fs(30);
+                }
+                p{
+                    width: 100%;
+                    text-align: center;
+                    .fs(30);
+                }
+            }
+        }
+        div{
+            position: absolute;
+            .t(132);
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            background-color: #ccc;
+            opacity: .5;
+        }
+    }
+    .on{display: block;}
+}
+footer{
+    .h(165);
+    .pt(45);
+    .pb(50);
+    .tc();
+    .copy1{
+        color: #494848;
+        .fs(28);
+        .mb(26);
+        a{
+            color: #494848;
+        .fs(28);
+        }
+    }
+    .copy2{
+        color: #9A9B9C;
+        .fs(26);
+    }
+}
